@@ -1,0 +1,15 @@
+{
+  "name": "openapi-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate-client": "openapi-generate generate -g typescript-axios -i ./api-with-examples.yaml -o ./generate/types/typescript-axios"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.1.7"
+  }
+}
